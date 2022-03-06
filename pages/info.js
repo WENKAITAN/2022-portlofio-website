@@ -4,6 +4,7 @@ import Layout from '../components/Layout'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import myPic from '../public/myPic.JPG'
+import myPic2 from '../public/myPic2.JPG'
 function Info() {
     return (
       <div className={styles.bio}>
@@ -13,10 +14,10 @@ function Info() {
             <div class="col">
                 <Image
                   className={styles.img}
-                  src={myPic}
+                  src={myPic2}
                   alt="get it store logo"
-                  width={400} automatically provided
-                  height={400} automatically provided
+                  // width={400} automatically provided
+                  // height={1500} automatically provided
                   // placeholder="blur" // Optional blur-up while loading
                   />
             </div>
