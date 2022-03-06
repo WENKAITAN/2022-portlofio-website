@@ -15,10 +15,7 @@ function Info() {
                 <Image
                   className={styles.img}
                   src={myPic2}
-                  alt="get it store logo"
-                  // width={400} automatically provided
-                  // height={1500} automatically provided
-                  // placeholder="blur" // Optional blur-up while loading
+                  alt="personal image"
                   />
             </div>
             <div class="col">

@@ -17,7 +17,8 @@ export default function Footer() {
                 <h4>Social - </h4>
                 <span className={styles.socialFlex}>
                     <a href="https://www.linkedin.com/in/wenkaitan/">Linkedin</a>,
-                    <a href="https://www.instagram.com/wenkai_tan10/">Instagram</a>
+                    <a href="https://www.instagram.com/wenkai_tan10/">Instagram</a>,
+                    <a href="https://github.com/WENKAITAN">Github</a>,
                 </span>
             </div>
         </div>
