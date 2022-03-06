@@ -5,7 +5,7 @@ export default function Layout({ children }) {
   return (
     <>
       <Head>
-        <title>Layouts Example</title>
+        <title>Wenkai Tan</title>
       </Head>
       <main>{children}</main>
     </>
