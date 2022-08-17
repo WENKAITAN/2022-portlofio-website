@@ -22,3 +22,10 @@ body {
   margin: 0px;
   font: verdana;
 }
+
+.intro {
+  text-indent: 50px;
+  letter-spacing: 3px;
+  min-width: 200px;
+}
+

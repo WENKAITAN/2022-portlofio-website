@@ -1,16 +1,26 @@
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import Layout from '../components/Layout'
-import styles from '../styles/Home.module.css'
-import Image from 'next/image'
-import resume from '../public/resume.png'
+
+
 function Resume() {
-    return <Image
-            className={styles.center}
-            src={resume}
-            alt="resume for wenkai tan"
-            placeholder="blur" // Optional blur-up while loading
-            />
+
+    return (
+      <div class="container" style={{marginLeft: "250px"}}>
+        <div class="row">
+          <div class="col align-self-center">
+            <iframe 
+                className="five"
+                src="https://docs.google.com/document/d/e/2PACX-1vTYsGAZezMwGg75zSZueFHpqVAAAuzL2YXPxHJ5pNwhKRPXLd0rfpVJBJtM_yM6mA/pub?embedded=true"
+                width="80%" height="1000" frameborder="0" marginheight="0" marginwidth="0"
+                >
+            </iframe>
+          </div>
+        </div>
+      </div>
+
+    )
+
   }
   
 export default Resume

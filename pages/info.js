@@ -16,16 +16,16 @@ function Info() {
                   className={styles.img}
                   src={myPic2}
                   alt="personal image"
+
                   />
             </div>
-            <div class="col">
-              <h4>
+            <div class="col container">
+              <h4 className="intro">
               Hello! My name is Wenkai Tan and I enjoy creating things that live on the internet. My interest in web development started back in 2019 when I decided to try to build a webiste for myself!
 Fast-forward to today, and I have become a senior computer science student at Lehman College based in NYC with focus on full-stack development. My main focus these days is building accessible, inclusive products and digital experiences.
-I will be interning at American express this summer as a software enginner. 
+I am a problem solver and like to find inovative solution that makes our life easier. This summmer I interned at American Express as a React Developer.
 Here are a few technologies I’ve been working with recently:
               </h4>
-
               <ul className={styles.technologies}>
                 <div>
                   <li>JavaScript</li>
