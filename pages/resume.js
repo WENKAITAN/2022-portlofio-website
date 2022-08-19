@@ -6,9 +6,9 @@ import Layout from '../components/Layout'
 function Resume() {
 
     return (
-      <div class="container" style={{marginLeft: "250px"}}>
+      <div class="container" >
         <div class="row">
-          <div class="col align-self-center">
+          <div class="col-md-12 offset-md-1 col-sm-12 offset-sm-1">
             <iframe 
                 className="five"
                 src="https://docs.google.com/document/d/e/2PACX-1vTYsGAZezMwGg75zSZueFHpqVAAAuzL2YXPxHJ5pNwhKRPXLd0rfpVJBJtM_yM6mA/pub?embedded=true"
