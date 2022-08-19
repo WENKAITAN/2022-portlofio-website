@@ -12,9 +12,9 @@ export default function Index() {
   return (
     <div>
       <br/><br/>
-      <div class="container">
-        <div class="row">
-          <div class="col">
+      <div className="container">
+        <div className="row">
+          <div className="col">
             <h2 className={styles.header}>
             Wenkai is a software developer <br/>living in <span className={styles.china}>China</span> New York City
             </h2>
@@ -48,9 +48,9 @@ export default function Index() {
         </div>
       </div>
 
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 col-sm-12">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-6 col-sm-12">
             <a href="https://fyyurtan.herokuapp.com/">
               <Image
                 className={styles.img}
@@ -65,7 +65,7 @@ export default function Index() {
             <h3 className={styles.landingH3}>Fyyur - A Musical Venue and Artist Booking Site</h3>
             <h4 className={styles.landingH4}>Backend Developer</h4>
           </div>
-          <div class="col-md-6 col-sm-12">
+          <div className="col-md-6 col-sm-12">
             <a href="https://reactnd-project-would-you-rather-starter-three.vercel.app/login">
               <Image
                 className={styles.img}
@@ -81,8 +81,8 @@ export default function Index() {
             <h4 className={styles.landingH4}>Frontend Developer</h4>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-6 col-sm-12">
+        <div className="row">
+          <div className="col-md-6 col-sm-12">
             <a href="https://udacity-my-reads.vercel.app/">
               <Image
                 className={styles.img}
@@ -97,7 +97,7 @@ export default function Index() {
             <h3 className={styles.landingH3}>My Reads </h3>
             <h4 className={styles.landingH4}>Frontend Developer</h4>
           </div>
-          <div class="col-md-6 col-sm-12" className={styles.grow}>
+          <div className="col-md-6 col-sm-12" className={styles.grow}>
             <a href="https://tweeter-clone.vercel.app/">
               <Image
                 className={styles.img}

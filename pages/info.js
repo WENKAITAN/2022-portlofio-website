@@ -9,9 +9,9 @@ function Info() {
     return (
       <div className={styles.bio}>
         <br/><br/>
-        <div class="container">
-          <div class="row">
-            <div class="col">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-6 col-md-6">
                 <Image
                   className={styles.img}
                   src={myPic2}
@@ -19,7 +19,7 @@ function Info() {
 
                   />
             </div>
-            <div class="col container">
+            <div className="col-lg-6 col-md-6 container">
               <h4 className="intro">
               Hello! My name is Wenkai Tan and I enjoy creating things that live on the internet. My interest in web development started back in 2019 when I decided to try to build a webiste for myself!
 Fast-forward to today, and I have become a senior computer science student at Lehman College based in NYC with focus on full-stack development. My main focus these days is building accessible, inclusive products and digital experiences.
