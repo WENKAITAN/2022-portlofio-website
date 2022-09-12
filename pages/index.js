@@ -8,6 +8,7 @@ import twitter from '../public/twitter.png'
 import myReads from '../public/myReads.png'
 import wouldYouRather from '../public/wouldYouRather.png'
 import Image from 'next/image'
+import LazyLoad from 'react-lazyload';
 export default function Index() {
   return (
     <div>
@@ -29,14 +30,17 @@ export default function Index() {
           <div className="col">
             <div className={styles.full}>
               <a href="https://get-it-ecommerce.netlify.app/">
-                <Image
-                className={styles.img}
-                src={logo}
-                alt="get it store logo"
-                width={1400} automatically provided
-                height={500} automatically provided
-                placeholder="blur" // Optional blur-up while loading
-                />
+                <LazyLoad height={200}>
+                  <Image
+                  className={styles.img}
+                  src={logo}
+                  alt="get it store logo"
+                  // width={1400} automatically provided
+                  // height={500}
+                  placeholder="blur" // Optional blur-up while loading
+                  />
+                </LazyLoad>
+
               </a>
 
 
@@ -52,14 +56,16 @@ export default function Index() {
         <div className="row">
           <div className="col-md-6 col-sm-12">
             <a href="https://fyyurtan.herokuapp.com/">
-              <Image
-                className={styles.img}
-                src={fyyur}
-                alt="fyyur"
-                width={700} automatically provided
-                height={700} automatically provided
-                placeholder="blur" // Optional blur-up while loading
-              />
+              <LazyLoad height={200}>
+                <Image
+                  className={styles.img}
+                  src={fyyur}
+                  alt="fyyur"
+                  width={700} automatically provided
+                  height={700}
+                  placeholder="blur" // Optional blur-up while loading
+                />
+              </LazyLoad>
             </a>
 
             <h3 className={styles.landingH3}>Fyyur - A Musical Venue and Artist Booking Site</h3>
@@ -67,14 +73,16 @@ export default function Index() {
           </div>
           <div className="col-md-6 col-sm-12">
             <a href="https://reactnd-project-would-you-rather-starter-three.vercel.app/login">
-              <Image
-                className={styles.img}
-                src={wouldYouRather}
-                alt="wouldYouRather"
-                width={700} automatically provided
-                height={700} automatically provided
-                placeholder="blur" // Optional blur-up while loading
-              />
+              <LazyLoad height={200}>
+                <Image
+                  className={styles.img}
+                  src={wouldYouRather}
+                  alt="wouldYouRather"
+                  width={700} automatically provided
+                  height={700}
+                  placeholder="blur" // Optional blur-up while loading
+                />
+              </LazyLoad>
             </a>
 
             <h3 className={styles.landingH3}>Would You Rather React App - A Simple Web Game</h3>
@@ -84,29 +92,33 @@ export default function Index() {
         <div className="row">
           <div className="col-md-6 col-sm-12">
             <a href="https://udacity-my-reads.vercel.app/">
-              <Image
-                className={styles.img}
-                src={myReads}
-                alt="myReads"
-                width={700} automatically provided
-                height={700} automatically provided
-                placeholder="blur" // Optional blur-up while loading
-              />
+              <LazyLoad height={200}>
+                <Image
+                  className={styles.img}
+                  src={myReads}
+                  alt="myReads"
+                  width={700} automatically provided
+                  height={700}
+                  placeholder="blur" // Optional blur-up while loading
+                />
+              </LazyLoad>
             </a>
 
             <h3 className={styles.landingH3}>My Reads </h3>
             <h4 className={styles.landingH4}>Frontend Developer</h4>
           </div>
-          <div className="col-md-6 col-sm-12" className={styles.grow}>
+          <div className="col-md-6 col-sm-12 styles.grow">
             <a href="https://tweeter-clone.vercel.app/">
-              <Image
-                className={styles.img}
-                src={twitter}
-                alt="twitter"
-                width={700} automatically provided
-                height={700} automatically provided
-                placeholder="blur" // Optional blur-up while loading
-              />
+              <LazyLoad height={200}>
+                <Image
+                  className={styles.img}
+                  src={twitter}
+                  alt="twitter"
+                  width={700} automatically provided
+                  height={700} 
+                  placeholder="blur" // Optional blur-up while loading
+                />
+              </LazyLoad>
             </a>
 
             <h3 className={styles.landingH3}>Twitter Clone React App</h3>
